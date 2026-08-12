@@ -69,7 +69,7 @@
   });
 
   // Typing effect for role line
-  const roles = ['2nd-Year AI-ML Student', 'Web Dev Learner', 'DSA in Progress'];
+  const roles = ['Linux Explorer','DevOps Enthusiast','Shell Scripter','Automation Explorer'];
   const typedRole = document.getElementById('typedRole');
   let roleIndex = 0, charIndex = 0, deleting = false;
 
