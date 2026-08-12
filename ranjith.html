@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ranjith Portfolio</title>
+<meta name="description" content="Portfolio of a second-year Computer Science / IT student — building skills and projects one commit at a time.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ranjith.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <a href="#top" class="brand">~/Ranjith</a>
+  <nav class="topnav">
+    <a href="#about">about</a>
+    <a href="#skills">skills</a>
+    <a href="#log">log</a>
+    <a href="#projects">projects</a>
+    <a href="#contact">contact</a>
+  </nav>
+  <button class="navtoggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobilemenu" id="mobileMenu">
+  <a href="#about">about</a>
+  <a href="#skills">skills</a>
+  <a href="#log">log</a>
+  <a href="#projects">projects</a>
+  <a href="#contact">contact</a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <p class="mono hero-eyebrow">$ git init Ranjith<span class="cursor">▌</span></p>
+    <h1 class="hero-title">Ranjith Kumar<span class="dot">.</span></h1>
+    <p class="hero-role">2nd-year AI-ML Student.</p>
+    <p class="hero-tagline">Learning how software gets built, one small, honest commit at a time — no shortcuts, no filler projects, just what I actually know.</p>
+    <div class="hero-links">
+      <a href="#projects" class="btn btn-solid">see the work</a>
+      <a href="#contact" class="btn btn-ghost">get in touch</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="mono tag">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text">
+        I'm a second-year AI/ML student, still early in the timeline — more coursework than shipped
+        products so far, and I'd rather say that plainly than pad this page with things I didn't build.
+        What I do have is a habit of finishing small things end‑to‑end, and a growing list of tools
+        I'm comfortable reaching for. This site is versioned the way my skills are: it updates every
+        time I actually learn something, not on a schedule.
+      </p>
+      <dl class="about-facts">
+        <div><dt>Status</dt><dd>2nd year, AI/ML</dd></div>
+        <div><dt>Focus</dt><dd>Web dev &amp; data structures</dd></div>
+        <div><dt>Currently</dt><dd>Building starter projects</dd></div>
+        <div><dt>Based</dt><dd>Tamil Nadu, India</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="mono tag">02</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skill-groups">
+      <div class="skill-group">
+        <h3 class="mono">languages</h3>
+        <div class="chips">
+          <span class="chip">Python</span>
+          <span class="chip">C</span>
+          <span class="chip">C++</span>
+          <span class="chip">HTML/CSS</span>
+          <span class="chip">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3 class="mono">tools</h3>
+        <div class="chips">
+          <span class="chip">Git &amp; GitHub</span>
+          <span class="chip">VS Code</span>
+          <span class="chip">Linux</span>
+          <span class="chip">Docker basics</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3 class="mono">learning now</h3>
+        <div class="chips">
+          <span class="chip chip-learning">Data Structures</span>
+          <span class="chip chip-learning">React</span>
+          <span class="chip chip-learning">SQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMIT LOG / JOURNEY -->
+  <section class="section" id="log">
+    <div class="section-head">
+      <span class="mono tag">03</span>
+      <h2>Journey log</h2>
+    </div>
+    <p class="section-intro">The honest version of a timeline — what I actually did, in order.</p>
+
+    <ol class="commitlog">
+      <li class="commit">
+        <span class="commit-hash mono">a1f9c2</span>
+        <div class="commit-body">
+          <p class="commit-msg">started: portfolio site v1</p>
+          <p class="commit-date mono">2026</p>
+        </div>
+      </li>
+      <li class="commit">
+        <span class="commit-hash mono">7b3e0d</span>
+        <div class="commit-body">
+          <p class="commit-msg">learned: core C + basic Python</p>
+          <p class="commit-date mono">Year 1</p>
+        </div>
+      </li>
+      <li class="commit">
+        <span class="commit-hash mono">4c8a91</span>
+        <div class="commit-body">
+          <p class="commit-msg">learned: HTML, CSS, JS fundamentals</p>
+          <p class="commit-date mono">Year 2</p>
+        </div>
+      </li>
+      <li class="commit commit-current">
+        <span class="commit-hash mono">HEAD</span>
+        <div class="commit-body">
+          <p class="commit-msg">in progress: DSA with Java, Real projects</p>
+          <p class="commit-date mono">now</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <span class="mono tag">04</span>
+      <h2>Starter projects</h2>
+    </div>
+    <p class="section-intro">Small, finished things — proof I can ship, not just study. More landing here every term.</p>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <span class="mono project-status">planned</span>
+        <h3>To-Do List App</h3>
+        <p>A clean task tracker to practice DOM manipulation and local storage — add, complete, and delete tasks.</p>
+        <span class="project-stack mono">HTML · CSS · JS</span>
+      </article>
+      <article class="project-card">
+        <span class="mono project-status">planned</span>
+        <h3>Simple Calculator</h3>
+        <p>A basic calculator UI to get comfortable with event handling and clean layout logic.</p>
+        <span class="project-stack mono">HTML · CSS · JS</span>
+      </article>
+      <article class="project-card">
+        <span class="mono project-status">planned</span>
+        <h3>Class Project, Cleaned Up</h3>
+        <p>Taking a coursework assignment and rebuilding it properly — documented, styled, and pushed to GitHub.</p>
+        <span class="project-stack mono">Python</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-contact" id="contact">
+    <div class="section-head">
+      <span class="mono tag">05</span>
+      <h2>Contact</h2>
+    </div>
+    <p class="section-intro">Open to internships, small collaborations, or just talking about what I'm learning.</p>
+    <div class="contact-links">
+      <a href="mailto:ranjithkumar.tech5@gmail.com" class="contact-link">Gmail</a>
+      <a href="https://github.com/Ranjithuhh" target="_blank" rel="noopener" class="contact-link">Github</a>
+      <a href="https://www.linkedin.com/in/ranjith-kumar5/" target="_blank" rel="noopener" class="contact-link">Linkedin</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="mono">// last commit: this site, v1 — built to grow</p>
+</footer>
+
+<script src="ranjith.js"></script>
+</body>
+</html>
